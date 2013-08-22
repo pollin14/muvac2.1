@@ -1,0 +1,62 @@
+/* 
+    Document   : muvac.menuTile
+    Created on : 3/06/2013, 12:28:49 PM
+    Author     : Victor Aguilar
+    Description:
+        Utilizado para el plugin de jquery muvac.menuTile.js
+*/
+
+.tile-menu a{
+	text-decoration: none;
+}
+
+.tile-menu ul,
+.tile-menu li,
+.tile-menu img{
+	padding: 0px;
+	margin: 0px;
+}
+
+ .tile-menu li, .tile-menu img{
+	width: 32px;
+	height: 32px;
+}
+
+.tile-menu img{
+	opacity: 1;
+	transition: opacity .8s;
+}
+
+.tile-menu img:hover{
+	opacity: 0.6;
+}
+
+.tile-menu ul{
+	list-style: none;
+}
+
+/* Menu Principal */
+.tile-menu > ul > li{
+	position: relative;
+}
+
+/* Menu Secundario
+
+Observación: Si se cambia el selector de abajo por tile-menu > ul > li > ul,
+observar el ultimo signo mayor que, la animación no funcionara correctamente,
+ya que al parecer algunas animaciones en jquery ui, en particular slide,
+hacen que el ultimo UL deje de ser hijo de LI, pero si sigue siendo un
+desendiente.
+
+*/
+.tile-menu > ul > li ul{
+	position: absolute;
+	top: 0px;
+	left:32px;
+	display:none;
+	z-index:1;	
+}
+
+.tile-menu > ul > li  ul  li{
+	float: left;
+}

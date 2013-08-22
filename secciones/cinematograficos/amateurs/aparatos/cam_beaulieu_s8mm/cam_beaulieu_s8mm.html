@@ -1,0 +1,181 @@
+<!--<script type='text/javascript' src='../../../libs/jquery-1.9.1.min.js'></script>
+<script type='text/javascript' src='../../../libs/jquery.scrollTo-1.4.3.1.js'></script>
+<script type='text/javascript' src='../../../libs/jquery.serialScroll-1.2.3b.js'></script>
+<script>
+        $(document).ready(function(){
+                $('.screen').serialScroll({
+                        target:'.sections',
+                        items:'li', // Selector to the items ( relative to the matched elements, '.sections' in this case )
+                        prev:'img.prev',// Selector to the 'prev' button (absolute!, meaning it's relative to the document)
+                        next:'img.next',// Selector to the 'next' button (absolute too)
+                        axis:'xy',// The default is 'y' scroll on both ways
+                        navigation: 'nav.equipment ul li ul.submenu li a',
+                        //			navigation:'nav.equipment ul li ul.submenu li a',
+                        duration:0,// Length of the animation (if you scroll 2 axes and use queue, then each axis take half this time)
+                        force:true // Force a scroll to the element specified by 'start' (some browsers don't reset on refreshes)
+                
+                        //queue:false,// We scroll on both axes, scroll both at the same time.
+                        //event:'click',// On which event to react (click is the default, you probably won't need to specify it)
+                        //stop:false,// Each click will stop any previous animations of the target. (false by default)
+                        //lock:true, // Ignore events if already animating (true by default)		
+                        //start: 0, // On which element (index) to begin ( 0 is the default, redundant in this case )		
+                        //cycle:true,// Cycle endlessly ( constant velocity, true is the default )
+                        //step:1, // How many items to scroll each time ( 1 is the default, no need to specify )
+                        //jump:false, // If true, items become clickable (or w/e 'event' is, and when activated, the pane scrolls to them)
+                        //lazy:false,// (default) if true, the plugin looks for the items on each event(allows AJAX or JS content, or reordering)
+                        //interval:1000, // It's the number of milliseconds to automatically go to the next
+                        //constant:true, // constant speed
+                });	
+                
+                $('#equipment nav.equipment').equipmentMenu();
+        })
+</script>-->
+
+<!-- La navegación debe ir dentro del screen -->
+<header class="aparatos_nombre">Cámara Tomavistas Beaulieu Super de 8mm</header>
+<nav>
+    <ul>
+        <li>
+            <a rel="1">
+                <img src="../../../imagenes/button_text_gray.png" class="gray" alt="texto" />
+                <img src="../../../imagenes/button_text_color.png" class="color" alt="texto" />
+            </a>
+        </li>
+        <li>
+            <a rel="2">
+                <img src="../../../imagenes/button_biografies_gray.png" class="gray" alt="biografias" />
+                <img src="../../../imagenes/button_biografies_color.png" class="color" alt="biografias" />
+            </a>
+        </li>
+        <li>
+            <a rel="3">
+                <img src="../../../imagenes/button_video_gray.png" class="gray" alt="video" />
+                <img src="../../../imagenes/button_video_color.png" class="color" alt="video" />
+            </a>
+        </li>
+    </ul>
+</nav>
+<!--<div class="imagen_intro_linterna">
+    <img src="aparatos/cam_beaulieu_s8mm/imagenes/camara_beauliau.png" alt="Linterna Mágica"/></div>-->
+
+<div class="intros">
+    <img src="aparatos/cam_beaulieu_s8mm/imagenes/camara_beauliau.png" alt="Praxinoscopio"/>
+</div>
+
+<div>
+    <iframe src="aparatos/cam_beaulieu_s8mm/salida_beaulieu/beaulieu_giro.html" scrolling="no" class="aparatos_giro2" frameborder="no"></iframe>
+</div>
+
+<div>
+    <div class="screen">
+        <div class="close"> </div>
+
+        <img class="prev" alt="prev" src="aparatos/imagenes/prev.png" />
+        <div class="sections">
+            <ul>
+                <li>
+                    <header class="aparatos_nombre_interior"><h3>Cámara Tomavistas Beaulieu Super 8mm</h3></header>
+
+                    <div class="texto1">
+                        <h1>Cámara Tomavistas Beaulieu Super 8mm</h1>
+                        <h3>Cámara tomavistas para película de Super 8 mm</h3>
+                        Marca Beaulieu<br /> 
+                        Modelo 4008 ZM II<br /> 
+                        Fabricada por Beaulieu<br /> 
+                        Francia, C. 1970<br /> 
+                        Largo, 26.5 cm<br /> ancho 9 cm<br /> altura 17 cm<br />       
+                    </div>
+
+                    <div class="texto2">
+                        <div class="imagen_text">
+                            <img src="aparatos/cam_beaulieu_s8mm/imagenes/imagen_beaulieu.png" />
+                        </div>
+                    </div>
+
+                    <div class="texto3">
+                        <h3>Descripción</h3>
+                        Cámara de visión réflex, esto es, el operador encuadra a través de la lente con que está filmando.<br />
+                        Movimiento a base de motor eléctrico, el cual es alimentado con una batería de cadmio-níquel. <br />
+                        Con lente marca Angenieux, tipo 8 x 8 B, de distancia focal variable (zoom), de 8 a 64 mm, y luminosidad de 1.9, de reglaje manual y eléctrico.<br />
+                        Con exposición automática, por medio de fotómetro incorporado a través de la lente, con graduación de 10 a 400 ASA.<br />
+                    </div> 
+                </li>
+                <li>
+                    <div class="texto1">
+                        <header class="aparatos_nombre_interior"><h3>Cámara Tomavistas Beaulieu Super 8mm</h3></header>
+                        Regulación de la velocidad de filmación, de 2 a 70 cuadros por segundo.<br />
+                        Capacidad para 50 pies de película.<br />
+                        Contador de pietaje disponible.<br />
+                    </div>
+
+                    <div class="texto2">
+                        <h3>Más Información</h3>
+                        El formato de Super 8 mm fue lanzado por Kodak para sustituir a la película de 8 mm. En el Super 8 mm, la perforación es mucho más pequeña por lo que se aprovecha mejor el área de la película y se tiene una 			                mejor resolución de la imagen.<br />
+                    </div>
+
+                    <div class="texto3">
+                        En este formato, se utilizó más frecuentemente el sonido, adhiriendo en el lado opuesto a la perforación, una delgada banda magnética, lo que permitió que se pudieran ver y oír películas contemporáneas    			
+                        espectaculares y no solamente las caseras. Además, el Super 8 sirvió para registrar testimonios políticos, sociales y culturales. 
+                    </div>  
+                </li>
+                <li>
+                    <div class="texto1">
+                        <header class="aparatos_nombre_interior"><h3>Cámara Tomavistas Beaulieu Super 8mm</h3></header>
+                        Cuando arribó el formato de video, su uso empezó a declinar dado que la  tecnología del video es mucho más barata y fácil de manipular. Se creyó que desaparecería totalmente el Super 8 mm, pero este formato 	
+                        ha renacido y Kodak sigue produciendo y vendiendo esta película porque da muy buen resultado en las cintas comerciales que quieren presentar una época ya pretérita.
+                    </div>
+
+                    <div class="texto2">
+                        La película de Super 8 mm también sirvió para su empleo en muchos juguetes ópticos, la casa Fisher Price tenía unos visores que, con gran ingenio, conseguían, en un circuito cerrado, el paso de la película 		
+                        en que narraban pequeñas y muy conocidas como Los tres cochinitos, Pedro y el Lobo, Popeye, El Marino, etc., cuyo precio de venta era de unos cuantos dólares. 
+                    </div>
+
+                    <div class="texto3">
+                        También se construyeron pequeños “teatros” en los que la película se proyectaba sobre una pantalla de plástico translúcido; estos teatros funcionaban con luz eléctrica de corriente alterna o bien de 
+                        corriente directa, por medio de pilas, y podían ser vistos por varios niños o adultos a la vez.<br />El Super 8 además se usó para la enseñanza del cine, dado que su costo era menor que la película de 16 mm;
+                    </div>
+                </li>    
+                <li>
+                    <div class="texto1">
+                        <header class="aparatos_nombre_interior"><h3>Cámara Tomavistas Beaulieu Super 8mm</h3></header>
+                        Con él se hicieron documentales de carácter político y de denuncia, hubo cooperativas para producir y exhibir estos materiales en este formato y hasta podemos decir que hay cineastas de “culto”, como 
+                        nuestro admirado colega Sergio García,<br /> que emplean el Super 8.
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <img class="next" alt="next" src="aparatos/imagenes/next.png" />
+    </div>
+
+    <div class="screen">
+        <div class="close"> </div>
+
+        <img class="prev" alt="prev" src="aparatos/imagenes/prev.png" />
+        <div class="sections">
+            <ul>
+
+                <li><img src="aparatos/linterna_magica/imagenes/l_01.jpg" alt="Linterna Mágica"/></li>
+                <li><img src="aparatos/linterna_magica/imagenes/l_02.jpg" alt="Linterna Mágica"/></li>
+                <li><img src="aparatos/linterna_magica/imagenes/l_03.jpg" alt="Linterna Mágica"/></li>
+                <li><img src="aparatos/linterna_magica/imagenes/diapo.png" alt="Linterna Mágica"/></li>
+            </ul>
+        </div>
+        <img class="next" alt="next" src="aparatos/imagenes/next.png" />
+    </div>
+
+    <div class="screen">
+        <div class="close"> </div>
+
+        <img class="prev" alt="prev" src="aparatos/imagenes/prev.png" />
+        <div class="sections">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <img class="next" alt="next" src="aparatos/imagenes/next.png" />
+    </div>
+
+</div>
+
+

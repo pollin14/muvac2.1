@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "alagard";
+    src: url(type/alagard.ttf) format("truetype");
+}
+
+
+
+
+
+@media only screen and (min-width: 849px) and (max-width: 1920px) {
+    header
+    {
+
+        font-family: "alagard";
+        height:13%;
+        width: 100%;
+        /*        weigth:auto;*/
+        background-color:white;
+        color:black;
+/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+        top:0px;
+        /*        margin-bottom: 5px;*/
+/*        float: left;*/
+    }
+    header h1
+    {
+
+        font-family: "alagard";
+        height:0%;
+        width: 100%;
+        /*        weigth:auto;*/
+        background-color:white;
+        color:black;
+/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+        top:0px;
+        /*        margin-bottom: 5px;*/
+/*        float: left;*/
+    }
+    #header_prin_cine
+    {
+        width: 145px;
+        height: 48%;
+        background-color: rgba(0,0,0,1);
+
+
+    }
+    #header_prin_cine
+    .header_secciones_cine
+    {
+        height: 13%;
+        padding: 3px 3px 3px 3px;
+        background-color: rgba(0,0,0,1);
+        border-radius:7%;
+        text-align: center;
+        position: absolute;
+        display: none;
+        color:orange;
+
+    }
+  
+
+    nav ul li 
+    {
+
+        display: inline-block;
+        margin-right:20px;
+        border-radius:15px 5px 5px 5px;
+        padding: 3px 3px 3px 3px;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.8);
+
+
+
+
+    }
+    .abajo{
+        
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        float:left;
+        right: 90%;
+        top:5px;
+        display:none;
+        
+
+
+    }
+
+}
+/*dos (pantalla mediana)*/
+@media only screen and (min-width: 451px) and (max-width: 848px) {
+
+    header
+    {
+        height: 0px;
+        width:100%;
+        font-family: "alagard";
+        height:auto;
+
+
+        background-color:white;
+        color:black;
+/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+        margin-top:0px;
+        margin-bottom: 5px;
+        float: left;
+
+    }
+    /*botones de cabecera por secciones*/
+
+    .menu_fundamentos{
+        position: absolute;
+        left: 0%;
+        top:10%;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+    }
+    .menu_precine{
+        position: absolute;
+        left: 0%;
+        top:15%;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+
+    }
+    #header_prin_cine
+    {
+
+
+        color: black;
+        top:20%;
+        left:0px;
+        position: absolute;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+
+
+    }
+    #header_prin_cine 
+    .header_secciones_cine
+    {
+        height: 75px;
+        padding: 3px 3px 3px 3px;
+        background-color: rgba(0,0,1,1);
+        border-radius:7%;
+        text-align: center;
+        display: none;
+        color:green;
+        left:0px;
+        position: absolute;
+        z-index: 1;
+
+    }
+    .menu_3d
+    {
+        color: black;
+        top:25%;
+        left:0px;
+        position: absolute;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+
+    }
+    .menu_sitio
+    {
+        color:black;
+        top:30%;
+        left:0px;
+        position: absolute;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+
+
+    }
+
+    nav ul li 
+    {
+
+        display: inline-block;
+        /*	margin-right:20px;
+                margin-bottom: 15px;*/
+        cursor: pointer;
+        /*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+        margin-top:20px;
+        border-radius:15px 5px 5px 5px;
+
+
+
+    }
+    .abajo{
+        
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        float:left;
+        right: 90%;
+        top:5px;
+        display:none;
+
+
+    }
+
+
+
+}
+/*Tres (pantalla grande)*/
+@media only screen and (min-width: 250px) and (max-width: 450px) {
+
+    header
+    {
+        height: 0px;
+        width:100%;
+        font-family: "alagard";
+        height:auto;
+
+
+        background-color:white;
+        color:black;
+/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+        margin-top:0px;
+        margin-bottom: 5px;
+        float: left;
+
+    }
+    /*botones de cabecera por secciones*/
+      
+    .menu_fundamentos{
+        position: absolute;
+        left: 0%;
+        top:10%;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+        display: none;
+    }
+    .menu_precine{
+        position: absolute;
+        left: 0%;
+        top:15%;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+        display: none;
+    }
+    #header_prin_cine
+    {
+
+
+        color: black;
+        top:20%;
+        left:0px;
+        position: absolute;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+        display: none;
+
+    }
+    #header_prin_cine 
+    .header_secciones_cine
+    {
+        height: 75px;
+        padding: 3px 3px 3px 3px;
+        background-color: rgba(0,0,1,1);
+        border-radius:7%;
+        text-align: center;
+        display: none;
+        color:green;
+        left:0px;
+        position: absolute;
+        z-index: 1;
+
+    }
+    .menu_3d
+    {
+        color: black;
+        top:25%;
+        left:0px;
+        position: absolute;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+        display: none;
+    }
+    .menu_sitio
+    {
+        color:black;
+        top:30%;
+        left:0px;
+        position: absolute;
+        float:none;
+        background-color:black;
+        padding: auto;
+        border-radius:5px;
+        display: none;
+
+    }
+
+
+ 
+.abajo{
+        
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        float:left;
+        left:2%;
+        top:5px;
+
+    } 
+    nav ul li img
+{
+	
+	display: inline-block;
+	margin-left:10px;
+	margin-bottom: 15px;
+	cursor: pointer;
+        background-color: white;
+/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+	
+
+}/*
+.precine_aparatos{
+   margin-left: 3px;
+}*/
+
+}

@@ -1,0 +1,141 @@
+/**
+Todas las reglas en este archivo deberan llevar el prefijo 
+.visor-de-informacion, si no lo lleva, eso signifca que
+no debería ir aqui.
+
+Sobreescribir lo que sea necesario al final de este documento.
+*/
+
+/** No tocar el codigo de abajo porque puede hacer que deje de funcionar
+el slider de la información de los objetos **/
+
+.visor-de-informacion *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.visor-de-informacion div.screen{
+    width: 100%;
+    height: 300px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/*cerrar Sliders*/
+.visor-de-informacion div.screen div.boton_cerrar{
+    top: 5px;
+    right: 10px;
+    background-color:red;
+    width: 15px;
+    height: 15px;
+    position:absolute;
+}
+
+.visor-de-informacion div.screen ul{
+    list-style: none;
+    width:5000px;
+    /*    height: 100%;*/
+}
+
+.visor-de-informacion div.screen li{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 100%;
+    /*    background-color:rgba(0,0,0,0.5);*/
+}
+
+/** Controles **/
+.visor-de-informacion img.prev,
+.visor-de-informacion img.next{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    top: 310px;
+}
+
+.visor-de-informacion img.prev{
+    left: 0px;
+}
+
+.visor-de-informacion img.next{
+    right: 0px;
+}
+
+.visor-de-informacion img.color{
+    display:none;}
+
+/*Estilos de la pantalla que contiene la informacion de los aparatos*/
+.visor-de-informacion div.screen div.sections{
+/*    overflow: hidden;*/
+
+overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
+/*    background-color: blue;*/
+}
+
+/**Aqui poner reglas extras. **/
+
+.visor-de-informacion ul li{
+    /*    padding: 50px;*/
+/*    border: solid thin blue;
+    background-color: red;*/
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.caja_info_aparato
+{
+    
+}
+
+.texto1
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    margin-top: 10px;
+    padding:2%;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+    color: black;
+    
+}
+.texto2
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    padding:2%;
+    margin-top: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+    color: black;
+
+}
+
+.texto3
+{
+
+    height:auto;
+    right:66%;
+    width:30%;
+    text-align : justify;
+    margin-top: 10px;
+     margin-left: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:33%; 
+    height:250px;
+	float:left;
+        color: black;
+}

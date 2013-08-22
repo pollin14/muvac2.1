@@ -1,0 +1,559 @@
+
+/************************/
+/* Genaral **************/
+/************************/
+
+@charset 'utf-8';
+@font-face {
+	font-family: "Kaligraf_Latin";
+	src: url(../imagenes/Kaligraf_Latin.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "CharlB";
+	src: url(../imagenes/CharlB.ttf) format("truetype");
+}
+
+@font-face {
+	font-family:url("");
+	src: url(../imagenes/britanic.ttf) format("truetype");
+}
+@font-face {
+	font-family:url("origine_du_monde");
+	src: url(../imagenes/origine_du_monde.ttf) format("truetype");
+}
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	color:black;
+}
+a:visited{
+	color: black;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	font-family: arial;
+	font-size: 10pt;
+	overflow: hidden;
+}
+
+
+#main{
+	min-width: 800px;
+	height: 600px;
+	/*margin-top: 30px;*/
+	/*	background-color: red;*/
+	/*	overflow: hidden;*/
+
+
+}
+
+#menu_tile{
+	width: 110px;
+	height: 100%;
+	/*background-color: blue;
+	background-image: url('imagenes/hand_program_background.png');*/
+	position: relative;
+	float: left;
+
+}
+
+
+
+
+#section{
+	width: 520px;
+	height: 100%;
+	float: left;
+	background-color: green;
+	background-image:url('imagenes/section_background.jpg');
+	position:relative;
+}
+
+/**********/
+/* Clases */
+/**********/
+
+.text3d{
+	font: bold 50px/1 "CharlB";
+	text-transform: uppercase;
+
+	text-shadow: -2pt 0pt 0 gray;
+
+}
+
+ul.row{
+	list-style: none;
+}
+
+ul.row li{
+
+	display: block;
+	position: relative;
+	float:left;
+}
+
+div.text{
+	display: block;
+	position: absolute;
+	top: 48px;
+	left: -48px;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 175px;
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	background-image: url('imagenes/ticket_transparent_background.png');
+}
+
+div.text a{
+	display: block;
+	color:black;
+	text-decoration:none;
+	font-family: britanic;
+	font-size: 17pt;
+	margin: 10px 10px 10px 20px;
+	text-shadow: -2pt 0pt 0 orange;
+	}
+
+
+.close{
+    position: absolute;
+    width: 23px;    
+    height: 23px;
+    background-color: white;
+    background-image: url('imagenes/error.png');
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    cursor: pointer;
+	
+}
+
+
+
+/***********/
+/* Tooltip */
+/***********/
+
+.tooltip_book{
+	border: solid white medium;
+	background-color: black;
+	opacity: .5;
+	width: 200px;
+	font-size: 14pt;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 15px;
+	color: white;
+}
+
+.tooltip_book > div.close{
+   
+    top: 0px;
+    right: 0px;
+    
+   
+}
+.tooltip_book > div.close:hover{
+	background-color: red;
+}
+
+
+header.encabezado_sec
+{
+/*	font: 28px/1 Kaligraf_Latin;*/
+	font: 13px/1 "CharlB";
+	text-shadow: -1px -1px 0px #FFFFCC;
+	height:80px;
+	background-image:url(imagenes/pleca.png);
+	text-align:center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	width:100%;
+	margin-bottom:0px;
+	text-decoration:line-through;
+	
+}
+
+header.encabezado_sec img{
+	
+	
+	}
+
+header.encabezado_sec div.muvac_nombre
+{
+	width:100%;
+	height:100%;
+	margin-bottom:15px;
+	background-image:url(../imagenes/titulo.png);
+	background-position:center 0px;
+	background-repeat:no-repeat;
+	
+	
+}
+header.nombres_secciones
+{
+	width:1700px;
+	height:35px;
+	background-color:#660000;
+	text-align:center;
+	color:#FF6600;}
+
+header.encabezado_sec> div nav ul li{
+	display:inline-block;
+	margin-right:15px;
+	margin-bottom:4px;
+	cursor: pointer;
+	margin-top:65px;
+	color:#FF6600;
+	font: 14px/1 "CharlB";
+	text-shadow: -2px -1px 1px #FFFFCC;
+	background-image:url(imagenes/img3.png);
+	
+	
+}
+header.aparatos_nombre
+{
+    color:#black;
+    height:15px;
+    background-image:url(imagenes/pleca.png);
+    text-align:center;
+    font-size:35px;
+    font: 20px/1 "CharlB";
+	text-shadow: -2px -1px 1px #FFFFCC;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow:#000;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #000;
+	margin-top:5px;
+	
+    
+
+}
+
+.aparatos_nombre_interior
+{
+    color:black;
+    height:25px;
+    width:43%;
+    text-align:center;
+    font-size:25px;
+    font: 14px/1 "CharlB";
+    text-shadow: -1px -1px 0px #FFFFCC;
+    background-image:url(imagenes/fondo_parallax.jpg);
+    
+    margin-top:10px;
+    margin-left:410px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow:#000;
+
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #000;
+}
+.aparatos_nombre_interior h2
+{
+text-align:center;
+padding:5px;}
+.aparatos_nombre_interior h3
+{
+    text-align:center;
+    padding: 7px;
+}
+
+
+
+
+#tickets img.broken {
+	display:none;
+}
+
+#equipment{
+	position:relative;
+	min-width: 420px;
+	height: 360px;
+	/*margin: 10px 20px 10px 40px;*/
+	margin-left:15px;
+	margin-right:20px;
+	box-shadow:9px 7px 7px rgba(0,0,0,0.5);
+	border:-3px solid #444;
+	border-radius:20px;
+	text-align: left;
+	padding-right:15px;
+	overflow:hidden;
+
+}
+
+
+#equipment > nav{
+	float:left;
+}
+
+#equipment ul{
+	list-style: none;
+}
+
+#equipment > nav > ul{
+	text-align: left;
+	box-shadow:4px 7px 7px rgba(10,5,0,0.5);
+	border:-3px solid #444;
+	border-radius:8px;
+}
+
+#equipment > nav ul li img{
+	height: 80px;
+	width: 100px;
+}
+#equipment > nav ul li{
+	position: relative;
+	margin-top: 10px;
+	box-shadow:4px 7px 7px rgba(10,5,0,0.5);
+	border:-3px solid #444;
+	border-radius:8px;
+	cursor: pointer;
+}
+
+/*#equipment > div{
+	position: absolute;
+	left: 150px;
+	top: 10px;
+	width: 300px;
+	height: 300px;
+}*/
+
+
+#equipment div.screen{
+	width: 300px;
+	height: 300px;
+	position:absolute;
+	left:150px;
+	display: none;
+	
+	/*background-color: red;*/
+}
+
+iframe{
+	position: absolute;
+	left: 25%;
+        top:20%;
+        border-radius:50px;
+}
+
+
+/*cerrar Sliders*/
+#equipment div.screen div.close{
+    top: 5px;
+    right: 10px;
+}
+
+#equipment div.screen ul{
+	list-style: none;
+	width:50000px;
+	height: 100%;
+}
+
+#equipment div.screen li{
+	display: block;
+	float: left;
+	width: 300px;
+	height: 100%;
+	/*background-color:rgba(0,0,0,0.5);*/
+}
+
+/** Controles **/
+#equipment img.prev,
+#equipment img.next{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	top: 250px;
+
+}
+
+#equipment img.prev{
+	left: 0px;
+}
+
+#equipment img.next{
+	right: 0px;
+}
+
+
+
+
+
+
+#equipment img.color{
+	display:none;}
+
+/*Estilos de la pantalla que contiene la informacion de los aparatos*/
+#equipment div.screen div.sections{
+	overflow: hidden;
+	height: 100%;
+	background-image:url("../secciones/precinematograficos/css/imagenes/fondo_p01.png");
+	background-size: 100%;
+	border-radius:8px;
+	padding:0px 20px 20px 20px;
+	text-align:justify;
+	text-justify:inter-word;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	fill:rgb(0,0,255);
+	stroke-width:1;
+	stroke:rgb(0,200,0);
+}
+
+
+/*este sirve para los iframes de los aparatos giratorios*/
+.aparatos_giro
+{
+	
+	margin-left:0%;
+	margin-top:0%;
+	width:588px;
+	height:330px;
+	pading:50px;
+	border-radius:15px;
+	cursor:move;	
+}
+.aparatos_giro2
+{
+	width:588px;
+	height:360px;
+	margin-top:-35px;
+	/*margin-bottom:45%;*/
+	margin-left:30px;
+	float:rigth;
+	/*pading-top:35px;*/
+	border-radius:5px;
+	cursor:pointer;	
+}
+
+/*pie de pagina-------Este codigo tiene un parche en el css de "footer"
+el parche es el "position:absolute;"*/
+
+footer{
+	height:30px;
+	background-image:url(imagenes/fondo_parallax.png);
+	border-image:url(imagenes/pleca.png);
+	border-soloid:#000000;
+	border-radius:25px;
+	padding:5px 10px;
+	bottom:0px;
+	right:4px;
+	bottom:9px;
+	position:absolute;
+}
+
+footer address
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:136px;}
+
+footer a.difucion_cultural
+{
+	width:53px;
+	height:30px;
+	display:block;
+	background-image:url(../imagenes/logos/difucion_cultural.png);
+	float:left;}
+footer a.filmoteca
+{
+	width:24px;
+	height:30px;
+	display:block;
+	background-image:url(../imagenes/logos/filmoteca.png);
+	float:left;}
+footer a.facebook
+{
+	width:29px;
+	height:30px;
+	display:block;
+	background-image:url(../imagenes/logos/facebook.png);
+	float:left;}
+footer a.twitter
+{
+	width:30px;
+	height:30px;
+	display:block;
+	background-image:url(../imagenes/logos/twitter.png);
+	float:left;}
+	
+	video{
+	text-align:center;
+	margin-left:310px;}
+	
+	.texto1
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    margin-top: 10px;
+    padding:2%;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+}
+.texto2
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    padding:2%;
+    margin-top: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+
+}
+
+.texto3
+{
+
+    height:auto;
+    right:66%;
+    width:30%;
+    text-align : justify;
+    margin-top: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:33%; 
+    height:250px;
+	float:left;
+
+
+}
+li>.texto3 .imagen_text{
+    weight:135px;
+    height:250px;
+    margin-right:15px;
+    padding:8px;
+
+}
+

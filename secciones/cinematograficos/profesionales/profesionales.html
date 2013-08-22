@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Cinematograficos</title>
+
+	<!-- Estilos generales (para toda pagina del muvac) -->
+	<link rel="stylesheet" href="../../../css/muvac.css" media="screen">
+	<link rel="stylesheet" href="../../../css/muvac.ticketMenu.css" media="screen">
+
+	<!-- Estilos de la pagina actual -->
+	<link rel="stylesheet" href="../css/cinematograficos.css" media="screen">
+	<link rel="stylesheet" href="../css/ticketMenu.css" media="screen">
+	<link rel="stylesheet" href="../../../css/muvac.tileMenu.css" media="screen">
+	<link rel="stylesheet" href="../../../css/tooltip.css">
+
+	<!-- Scripts de terceros -->
+	<script src="../../../libs/jquery-1.9.1.min.js"></script>
+	<script src="../../../libs/jquery-ui-1.10.0.min.js"></script>
+	<script src="../../../libs/jquery.scrollTo-1.4.3.1.js"></script>
+	<script src="../../../libs/jquery.serialScroll-1.2.3b.js"></script>
+
+	<!-- Scripts Propios -->
+	<script src="../../../js/muvac.equipmentMenu-1.0.js"></script>
+	<script src="../../../js/jquery.ticketMenu-1.0.js"></script>
+	<script src="../../../js/jquery.resizePage-1.0.js"></script>
+	<script src="../../../js/jquery.hiddingTab-1.0.js"></script>
+	<script src="../../../js/muvac.tileMenu.js"></script>
+
+	<!-- Script exclusivo de la pagina -->
+	<script src="../js/cinematograficos.js"></script>
+	<script src="../../../js/inicio.js"></script>
+
+    </head>
+    <body>
+	<div id="main">
+	    <nav id="menu_tile">
+		<ul>
+		    <li>
+			<a href="../../../intro.html">
+			    <img src="../../../imagenes/logo_muvac.png" title="Inicio">
+			</a>
+		    </li>
+
+
+                    <li>
+			<img src="../../../imagenes/luz_boton_1.png" title="Fundamentos de la Luz">
+			<ul>
+			    <li>
+				<a href="../../../secciones/fundamentos_de_la_luz/prometeo_y_la_luz/prometeo_y_la_luz.html">
+				    <img src="../../../imagenes/luz_boton_2.png" title="Prometeo y la luz">
+				</a>
+			    </li>
+			</ul>
+		    </li>
+
+
+
+		    <li>
+			<a href="../../precinematograficos/precinematograficos.html">
+			    <img src="../../../imagenes/precine_boton.png" title="Precinematograficos">
+			</a>
+		    </li>
+
+		    <li><a href="../amateurs/amateurs.html">
+			    <img src="../../../imagenes/cine_boton.png" title="Cinematográficos">
+                        </a>
+			<ul>
+			    <li>
+				<a href="../amateurs/amateurs.html"> 
+				    <img src="../../../imagenes/amateur_boton.png" title="Amateurs">
+                                </a>
+			    </li>
+			    <li> 
+				<a href="../profesionales/profesionales.html"> 
+				    <img src="../../../imagenes/prof_boton.png" title="Profesionales">
+                                </a>
+			    </li>
+			    <li>
+				<a href="../ingenio_mexicano/ingenio_mexicano.html"> 
+				    <img src="../../../imagenes/ing_mex_boton.png" title="Ingenio Mexicano">
+                                </a>
+			    </li>
+			</ul>
+		    </li>
+
+		    <li>
+			<a href="../../../secciones/cine3d/cine3d.html"><img src="../../../imagenes/3d_boton.png" title="Cine 3D"></a>
+		    </li>
+		</ul>
+	    </nav>
+	    <section id="section">
+		<header class="encabezado_sec">
+		    <div class="muvac_nombre">
+
+			<nav>
+			    <ul>
+				<li><a href="../../../intro.html">
+					<h4>Inicio</h4>
+				    </a> </li>
+				<li> <a href='../../../secciones/fundamentos_de_la_luz/prometeo_y_la_luz/prometeo_y_la_luz.html'>
+					<h4>Fundamentos De La Luz</h4>
+				    </a> </li>
+				<li><a href='../../../secciones/precinematograficos/precinematograficos.html'>
+					<h4>Precinematograficos</h4>
+				    </a></li>
+				<li><a href='Cinematograficos.html'>
+					<h4>Cinematograficos</h4>
+				    </a></li>
+				<li>
+				    <h4><a href="../../../secciones/cine3d/cine3d.html">Cine 3D</a></h4>
+				</li>
+				<li>
+				    <h4><a>Mapa de Sitio</a></h4>
+				</li>
+			    </ul>
+			</nav>
+		    </div> 
+		</header>
+		<header class="aparatos_nombre_interior"><h2>Cinematográficos Profesionales</h2></header>
+
+
+
+
+
+                <div id="equipment">
+		    <!-- Contenido que se cargara dinamicamente con AXAJ -->
+		    <!-- Considere que cuando se carge un archivo aqui, este -->
+		    <!-- archivo sera parte de este documente así que las    -->
+		    <!-- las rutas seran relativas a este documento y no     -->
+		    <!-- al que se esta cargando. Esto se debe tener en      -->
+		    <!-- a la hora de crear los documentos html de los       -->
+
+		    <!-- aparatos. -->
+		    <header class="aparatos_nombre_interior">Cruz de Malta</header>
+		    <img src="imagenes/hoja_muestra_cm.png">
+		    <img class="hoja_cruz" src="../imagenes/cruz_malta_300.gif">
+
+                </div>
+
+		<nav id="tickets">
+		    <div class="strip"></div>
+		    <div class="screen">
+			<!-- Controles -->
+			<div class="prev"></div>
+			<div class="next"></div>
+
+
+			<div class="sections">
+			    <div>
+				<ul class="row">
+				    <li>
+					<img src="../imagenes/boleto02.png" title="Camara Erneman" class="whole"> 
+                                        <img src="../imagenes/rotos/boleto02.png" class="broken">
+					<div class="text">
+					    <a href="aparatos/cam_erneman_35/cam_erneman_35.html">Camara<br> Erneman de 35mm<br>&nbsp;</a>
+					</div>
+				    </li>
+				    <li>
+					<img src="../imagenes/boleto023.png" title="Proyector Pathe Freres" class="whole">
+                                        <img src="../imagenes/rotos/boleto023.png" class="broken">
+					<div class="text"><a href="aparatos/pro_pathe_freres_35/pro_pathe_freres_35.html">Proyector<br> Pathé Frerés de<br> 35mm<br>&nbsp;</a></div>
+				    </li>
+				    <li>
+					<img src="../imagenes/boleto03.png" title="Camara Pathe Freres 35mm" class="whole">
+                                        <img src="../imagenes/rotos/boleto03.png" class="broken">
+					<div class="text"><a href="aparatos/cam_pathe_freres_35/cam_pathe_freres_35.html">Cámara<br> Pathé Frerés 35mm<br>&nbsp;</a></div>
+				    </li>
+				    <li>
+					<img src="../imagenes/Boleto020.png" title="Camara Universal de 35mm" class="whole">
+                                        <img src="../imagenes/rotos/boleto020.png" class="broken">
+					<div class="text"><a href="aparatos/cam_universal_35/cam_universal_35.html">Camara <br>Universal de 35mm</a></div>
+				    </li>
+				    <li>
+					<img src="../imagenes/boleto04.png" title="Proyector Optica de 35mm" class="whole">
+                                        <img src="../imagenes/rotos/boleto04.png" class="broken">
+					<div class="text"><a href="aparatos/pro_optica_35/pro_optica_35.html">Proyector<br>Optica de<br>35mm</a></div>
+				    </li>
+				    <li>
+					<img src="../imagenes/boleto06.png"  title="Camara Bellyhowell 35mm" class="whole">
+                                        <img src="../imagenes/rotos/boleto06.png" class="broken">
+					<div class="text"><a href="aparatos/cam_bellyhowell/cam_bellyhowell.html">Cámara<br> Bell & Howell<br> 35mm <br></a></div>
+				    </li>
+				</ul>
+				<ul class="row">
+				    <li>
+					<img src="../imagenes/boleto07.png" title="Camara Paillard Bolex 16mm" class="whole">
+                                        <img src="../imagenes/rotos/boleto07.png" class="broken">
+					<div class="text">
+					    <a href="aparatos/cam_pailardbolex_16/cam_pailardbolex_16.html">Camara<br> Paillard Bolex 16mm<br>&nbsp;</a>
+					</div>
+				    </li>
+				    <li>
+					<img src="../imagenes/boleto08.png" title="Mutoscopio" class="whole">
+                                        <img src="../imagenes/rotos/boleto08.png" class="broken">
+					<div class="text">
+					    <a href="aparatos/cam_cinekodak_16/cam_cinekodak_16.html">Cámara<br>Cine Kodak<br>16mm<br>&nbsp;</a>
+                                        </div>
+				    </li>
+				</ul>
+			    </div></div>
+		    </div>
+		</nav>
+	    </section>
+	</div>
+    </body>
+</html>

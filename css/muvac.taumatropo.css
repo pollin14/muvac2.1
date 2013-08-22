@@ -1,0 +1,75 @@
+/* 
+    Document   : taumatropo
+    Created on : 23/04/2013, 08:47:23 PM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/*
+ Cada hijo de container compartira el mismo espacio 3d, es decir, seran vistos
+desde la misma perspectiva, pero solo para los decendientes directos (hijos)
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.taumatropo_wrapper { 
+    width: 150px;
+    height: 150px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+    position: relative;
+    perspective: 800px;
+    -webkit-perspective: 800;
+	display:inline-block;
+}
+
+.taumatropo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	
+
+    /* Para heredar la perspectiva a sus hijos */
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition-duration: .5s;
+    -moz-transition-property: transform;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.taumatropo img {
+    display:block;
+    position: absolute;
+
+    /* estos valores son un parchaso */
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 50%;
+}
+
+/* La cara trasera esta oculta en su estado incial */
+.taumatropo > .back {
+    /*	background: blue;*/
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+}
+
+/* La carta esta volteada */
+.taumatropo.flipped {
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+}
+

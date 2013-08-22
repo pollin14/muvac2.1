@@ -1,0 +1,98 @@
+/* 
+    Document   : ticketMenu
+    Created on : 9/05/2013, 10:09:01 PM
+    Author     :
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#tickets{
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+	height: 185px;
+	margin-top:-10px;
+}
+
+#tickets div.strip{
+	background-image:url(imagenes/sliders_fondo.png);
+	width: 480px;
+	height: 20px;
+	position: absolute;
+	margin-top:0px;
+	z-index:3;
+	
+}
+
+#tickets div img{
+	display:block;
+	float:left;
+	height: 175px;
+	width: 80px;
+}
+
+#tickets .screen{
+	position:relative;
+	height:175px;
+	width:480px; 
+}
+#tickets .screen .prev, #tickets .screen .next{
+	display: block;
+	position:absolute;
+	top: 55px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+
+#tickets .screen .prev{
+	left:-50px;
+	background-image:url(imagenes/prev.png);
+	display: none;
+	width: 40px;
+	height: 50px;
+	}
+#tickets .screen .next{
+	right: -50px;
+	background-image: url(imagenes/next.png);
+	width: 40px;
+	height: 50px;
+}
+
+#tickets .screen .sections{
+	overflow: hidden;
+	clear: left;
+	width: 100%;
+	height: 100%;
+}
+
+/* 
+Esta es la parte mas importante del slider.
+Hay que hacer que el contenedor de los elementos sea suficientemente grande 
+para que quepan todos sus elementos, en este caso los ul. Para ver porque
+establecer la propiedad overflow a auto de la clase de arriba.
+*/
+
+#tickets .screen .sections > div 
+{
+	width: 1960px;
+	height: 100%;
+}
+
+#tickets .screen .sections ul{
+	list-style: none;
+	width: 480px;
+	height: 175px;
+	float:left;
+}
+#tickets .screen .sections li{
+	float:left;
+	width: 80px;
+	height: 175px;
+}
+
+#tickets .screen .sections img
+{
+
+}

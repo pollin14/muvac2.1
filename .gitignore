@@ -1,0 +1,10 @@
+
+secciones/fundamentos_de_la_luz/prometeo_y_la_luz/sonidos/*.*
+*.mp4
+*.ogv
+/nbproject
+/nbproject/**/*
+nbproject/**/*
+.*
+*~
+!.gitignore

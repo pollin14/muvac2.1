@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html Lang="es">
+
+    <head>
+	<meta charset="utf-8">
+	<title>Cine 3D</title>
+
+	<!-- Estilos generales (para toda pagina del muvac) -->
+	<link rel="stylesheet" href="../../css/jquery-ui.css">
+	<link rel="stylesheet" href="../../css/muvac.css" media="screen">
+	<link rel="stylesheet" href="../../css/muvac.tileMenu.css" media="screen">
+	<link rel="stylesheet" href="../../css/tooltip.css">
+
+	<!-- Estilos de la pagina actual -->
+	<link rel="stylesheet" href="css/cine3d.css" media="screen">
+
+	<!-- Scripts de terceros -->
+	<script src="../../libs/jquery-1.9.1.min.js"></script>
+	<script src="../../libs/jquery-ui-1.10.0.min.js"></script>
+
+	<!-- Scripts Propios -->
+	<script src="../../js/jquery.resizePage-1.0.js"></script>
+	<script src="../../js/muvac.tileMenu.js"></script>
+	<script src="../../js/inicio.js"></script>
+
+	<script src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js"></script>
+
+	<script type="text/javascript" src="js/cine3d.js"></script>
+
+
+    </head>
+    <body>
+	<div id="main">
+	    <nav id="menu_tile">
+		<ul>
+		    <li> <a href="../../intro.html"> <img src="../../imagenes/logo_muvac.png" title="Inicio"> </a> </li>
+		    <li> <img src="../../imagenes/luz_boton_1.png" title="Fundamentos de la Luz">
+			<ul>
+			    <li> <a href="../../secciones/fundamentos_de_la_luz/prometeo_y_la_luz/prometeo_y_la_luz.html"> <img src="../../imagenes/luz_boton_2.png" title="Prometeo y la luz"> </a> </li>
+			</ul>
+		    </li>
+		    <li> <a href="precinematograficos.html"> <img src="../../imagenes/precine_boton.png" title="Precinematograficos"> </a> </li>
+		    <li> <img src="../../imagenes/cine_boton.png" title="Cinematográficos">
+			<ul>
+			    <li> <a href="../cinematograficos/amateurs/amateurs.html"> <img src="../../imagenes/amateur_boton.png" title="Amateurs"> </a> </li>
+			    <li> <a href="../cinematograficos/profesionales/profesionales.html"> <img src="../../imagenes/prof_boton.png" title="Profesionales"> </a> </li>
+			    <li> <a href="../cinematograficos/ingenio_mexicano/ingenio_mexicano.html"> <img src="../../imagenes/ing_mex_boton.png" title="Ingenio Mexicano"> </a> </li>
+			</ul>
+		    </li>
+		    <li> <img src="../../imagenes/3d_boton.png" title="Cine 3D"> </li>
+		</ul>
+	    </nav>
+	    <section id="section">
+		<header class="encabezado_sec">
+		    <div class="muvac_nombre">
+			<nav>
+			    <ul>
+				<li><a href="../../intro.html">
+					<h4>Inicio</h4>
+				    </a> </li>
+				<li> <a href="../../secciones/fundamentos_de_la_luz/prometeo_y_la_luz/prometeo_y_la_luz.html" >
+					<h4>Fundamentos De La Luz</h4>
+				    </a> </li>
+				<li><a href='precinematograficos.html'>
+					<h4>Precinematograficos</h4>
+				    </a></li>
+				<li><a href="../cinematograficos/amateurs/amateurs.html">
+					<h4>Cinematograficos</h4>
+				    </a></li>
+				<li>
+				    <h4><a>Cine 3D</a></h4>
+				</li>
+				<li>
+				    <h4><a>Mapa de Sitio</a></h4>
+				</li>
+			    </ul>
+			</nav>
+		    </div>
+		</header>
+
+		<div id="unityPlayer" style="">
+		    <div class="missing">
+			<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+			    <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+			</a>
+		    </div>
+		    <div class="broken">
+			<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+			    <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+			</a>
+		    </div>
+		</div>
+
+		<footer>
+		    <address>
+			<a href="http://www.cultura.unam.mx/" title="difución cultural" class="difucion_cultural"></a>
+			<a href="http://www.filmoteca.unam.mx/" title="filmoteca" class="filmoteca"></a> 
+			<a href="https://www.facebook.com/pages/Filmoteca-UNAM/206577092750081?ref=ts&fref=ts" title="facebook" class="facebook"></a> 
+			<a href="https://twitter.com/ButacaUNAM" title="twitter" class="twitter"></a>
+		    </address>
+		</footer>
+	    </section>
+	</div>
+    </body>
+</html>
