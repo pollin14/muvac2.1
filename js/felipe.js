@@ -70,12 +70,23 @@ $(document).ready(function() {
 
 	/*Carga el comic de prometeo y la luz cuando se preciona el boton con el ID #fundamentos_texto */
 
-	$('#fundamentos_texto').click(function() {
-		$('#comic').load('secciones/fundamentos_de_la_luz/prometeo_y_la_luz/prometeo_y_la_luz.html',
-				function() {
-					Muvac.comic['prometeo y la luz']();
-				}
-		);
+//	$('#fundamentos_texto').click(function() {
+//		$('#comic').load('',
+//				function() {
+//					Muvac.comic['prometeo y la luz']()
+//				}
+//		);
+//	});
+
+	$.visorDeInformacion({
+		container: '#informacion_aparatos', // Selector para elemento donde se cargara la informacón.
+		links: '#fundamentos_texto', // Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
+		closedButton: 'div.boton_cerrar', // Selector para el elemento que cierra el container. Es relativo a container.
+		hideOptions: {easing: 'fade'}, // Opciones para el metodo hide (jquery)
+		showOptions: {easing: 'fade'}, //Opciones para el metodo show (jquery)
+		callback: function() {
+			Muvac.comic['prometeo y la luz']();
+		}
 	});
 
 	$.visorDeInformacion({
