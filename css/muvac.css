@@ -68,57 +68,21 @@ a
 
 
 /* textos de los botones de contenido*/
-#fundamentos_texto
-{
-
-	color:#CCCCCC;
-	/*	width:385px;*/
-	margin:0 auto;
-	background-color:#000000;
-	border-radius:15px;
-	cursor: pointer;
-
-}
-
-#precine_texto
-{
-
-	color:#CCCCCC;
-	/*	width:385px;*/
-	margin:0 auto;
-	background-color:#000000;
-	border-radius:15px;
-	cursor: pointer;
-
-}
-#amateur_texto
-{
-	color:#CCCCCC;
-	margin:0 auto;
-	background-color:black;
-	border-radius:15px;
-	display: off;
-}
-#profe_texto
-{
-	color:#CCCCCC;
-	margin:0 auto;
-	background-color:black;
-	border-radius:15px;
-}
-#ingenio_texto
-{
-	color:#CCCCCC;
-	margin:0 auto;
-	background-color:black;
-	border-radius:15px;
-}
-#tres_d_texto{
+.boton_de_menu{
     color:#CCCCCC;
 	margin:0 auto;
 	background-color:black;
 	border-radius:15px;
+	display:block;
+	font-size: 12pt;
+	border: 1px;
 }
+
+#tres_d_texto{
+	width:200px;
+	display: inline;
+}
+
 /*contenidos de la pagina inicial*/
 .comic{
     width:850px;
@@ -284,9 +248,6 @@ nav.menu_principal ul li img
 #lint{
     weight:0%;
 }
-button{
-    font-size:14px; 
-}
 
 footer{
 	height:30px;
@@ -385,4 +346,18 @@ footer a.twitter
 	background-color:gray;
 	height: 200px;
 	width: 200px;
+}
+
+.boton_cerrar{
+	top: 10px;
+    right: 20px;
+    background-color:red;
+    width: 15px;
+    height: 15px;
+    position:absolute;
+}
+
+#unityPlayer{
+	margin-left: 20px;
+	margin-right: auto;
 }

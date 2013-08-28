@@ -58,11 +58,12 @@ $(document).ready(function() {
 	});
 
 	$.visorDeInformacion({
-		container: '#informacion_aparatos',	// Selector para elemento donde se cargara la informacón.
-		links: 'li a',						// Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
-		closedButton: 'div.boton_cerrar',	// Selector para el elemento que cierra el container. Es relativo a container.
-		hideOptions: {easing: 'fade'},					// Opciones para el metodo hide (jquery)
-		showOptions: {easing: 'fade'}						//Opciones para el metodo show (jquery)
+		container: '#informacion_aparatos', // Selector para elemento donde se cargara la informacón.
+		links: 'li a', // Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
+		closedButton: 'div.boton_cerrar', // Selector para el elemento que cierra el container. Es relativo a container.
+		hideOptions: {easing: 'fade'}, // Opciones para el metodo hide (jquery)
+		showOptions: {easing: 'fade'}, //Opciones para el metodo show (jquery)
+		callback: Muvac.aparatos
 	});
 
 
@@ -77,19 +78,24 @@ $(document).ready(function() {
 		);
 	});
 
-	$('#tres_d_texto').click(function() {
-		$('#tres_d_recorrido').load('secciones/cine3d/cine3d.html',
-				function() {
-					Muvac.startUnity({
-						path: "secciones/cine3d/prueba.unity3d",
-						size: {
-							width: 900,
-							height: 200
-						}
-					});
+	$.visorDeInformacion({
+		container: '#informacion_aparatos', // Selector para elemento donde se cargara la informacón.
+		links: '#tres_d_texto', // Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
+		closedButton: 'div.boton_cerrar', // Selector para el elemento que cierra el container. Es relativo a container.
+		hideOptions: {easing: 'fade'}, // Opciones para el metodo hide (jquery)
+		showOptions: {easing: 'fade'}, //Opciones para el metodo show (jquery)
+		callback: function() {
+			Muvac.startUnity({
+				path: "secciones/cine3d/prueba.unity3d",
+				size: {
+					width: 600,
+					height: 400
 				}
-		);
+			});
+		}
 	});
+
+
 });
 
 
