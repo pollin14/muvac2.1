@@ -58,9 +58,11 @@ $(document).ready(function() {
 	});
 
 	$.visorDeInformacion({
-		container: '#informacion_aparatos', // Selector para elemento donde se cargara la informacón.
-		links: 'li a', // Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
-		closedButton: 'div.boton_cerrar' // Selector para el elemento que cierra el container. Es relativo a container.
+		container: '#informacion_aparatos',	// Selector para elemento donde se cargara la informacón.
+		links: 'li a',						// Selector para los enlaces a la informacion. Es CRITICO  que tenga el atributo HREF 
+		closedButton: 'div.boton_cerrar',	// Selector para el elemento que cierra el container. Es relativo a container.
+		hideOptions: {easing: 'fade'},					// Opciones para el metodo hide (jquery)
+		showOptions: {easing: 'fade'}						//Opciones para el metodo show (jquery)
 	});
 
 

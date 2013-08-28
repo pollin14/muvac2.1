@@ -9,7 +9,8 @@ Sobreescribir lo que sea necesario al final de este documento.
 /** No tocar el codigo de abajo porque puede hacer que deje de funcionar
 el slider de la información de los objetos **/
 
-.visor-de-informacion *{
+.visor-de-informacion ul,
+.visor-de-informacion li{
     margin: 0px;
     padding: 0px;
 }
@@ -17,9 +18,8 @@ el slider de la información de los objetos **/
 .visor-de-informacion div.screen{
     width: 100%;
     height: 300px;
-    height: auto;
+    height: 100%;
     position: relative;
-    cursor: pointer;
 }
 
 
@@ -42,7 +42,6 @@ el slider de la información de los objetos **/
     display: block;
     float: left;
     width: 600px;
-    height: 100%;
 }
 
 /** Controles **/
@@ -52,7 +51,7 @@ el slider de la información de los objetos **/
     height: 50px;
     width: 50px;
     cursor: pointer;
-    top: 310px;
+    bottom: 0px;
 }
 
 .visor-de-informacion img.prev{
@@ -69,7 +68,6 @@ el slider de la información de los objetos **/
 /*Estilos de la pantalla que contiene la informacion de los aparatos*/
 .visor-de-informacion div.screen div.sections{
 	overflow: hidden;
-    height: 100%;
     width: 100%;
 }
 
@@ -80,4 +78,15 @@ el slider de la información de los objetos **/
     padding: 0%;
     margin: 0%;
 
+}
+
+.slayer{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 900;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	display: none;
 }

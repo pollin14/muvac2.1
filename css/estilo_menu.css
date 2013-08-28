@@ -20,10 +20,10 @@
         /*        weigth:auto;*/
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+		/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         top:0px;
         /*        margin-bottom: 5px;*/
-/*        float: left;*/
+		/*        float: left;*/
     }
     header h1
     {
@@ -34,10 +34,10 @@
         /*        weigth:auto;*/
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+		/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         top:0px;
         /*        margin-bottom: 5px;*/
-/*        float: left;*/
+		/*        float: left;*/
     }
     #header_prin_cine
     {
@@ -60,7 +60,7 @@
         color:orange;
 
     }
-  
+
 
     nav ul li 
     {
@@ -77,7 +77,7 @@
 
     }
     .abajo{
-        
+
         width: 40px;
         height: 40px;
         position:absolute;
@@ -85,7 +85,7 @@
         right: 90%;
         top:5px;
         display:none;
-        
+
 
 
     }
@@ -104,7 +104,7 @@
 
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+		/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         margin-top:0px;
         margin-bottom: 5px;
         float: left;
@@ -197,7 +197,7 @@
 
     }
     .abajo{
-        
+
         width: 40px;
         height: 40px;
         position:absolute;
@@ -213,7 +213,7 @@
 
 }
 /*Tres (pantalla grande)*/
-@media only screen and (min-width: 250px) and (max-width: 450px) {
+@media only screen and (min-width: 0px) and (max-width: 450px) {
 
     header
     {
@@ -225,14 +225,14 @@
 
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+		/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         margin-top:0px;
         margin-bottom: 5px;
         float: left;
 
     }
     /*botones de cabecera por secciones*/
-      
+
     .menu_fundamentos{
         position: absolute;
         left: 0%;
@@ -306,9 +306,9 @@
     }
 
 
- 
-.abajo{
-        
+
+	.abajo{
+
         width: 40px;
         height: 40px;
         position:absolute;
@@ -318,19 +318,19 @@
 
     } 
     nav ul li img
-{
-	
-	display: inline-block;
-	margin-left:10px;
-	margin-bottom: 15px;
-	cursor: pointer;
-        background-color: white;
-/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
-	
+	{
 
-}/*
-.precine_aparatos{
-   margin-left: 3px;
-}*/
+		display: inline-block;
+		margin-left:10px;
+		margin-bottom: 15px;
+		cursor: pointer;
+        background-color: white;
+		/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+
+
+	}/*
+	.precine_aparatos{
+	   margin-left: 3px;
+	}*/
 
 }

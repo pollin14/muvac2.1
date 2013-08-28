@@ -12,12 +12,12 @@ body
 {
 	background-color:white;
 	font-family:"alagard",Helvetica;
-/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+	/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
 	overflow-x:hidden;	
 }
 #contenido
 {
-	
+
 	margin:0 auto;
 	text-align:center;
 	color:red;
@@ -25,14 +25,14 @@ body
 
 #centrar_pagina
 {
-margin:0 auto;
-margin-bottom:5%; 
-text-align:center;
-color:#FFF;
-/*background: rgba(0.7,0.7,0.7,0.5);*/
-border-radius:20px;
-padding:20px;
-/*box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+	margin:0 auto;
+	margin-bottom:5%; 
+	text-align:center;
+	color:#FFF;
+	/*background: rgba(0.7,0.7,0.7,0.5);*/
+	border-radius:20px;
+	padding:20px;
+	/*box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
 
 
 }
@@ -63,7 +63,7 @@ a
 {
 	color:#333333;
 	text-decoration:none;	
-	
+
 }
 
 
@@ -72,24 +72,24 @@ a
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
+	/*	width:385px;*/
 	margin:0 auto;
 	background-color:#000000;
 	border-radius:15px;
-        cursor: pointer;
-	
+	cursor: pointer;
+
 }
 
 #precine_texto
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
+	/*	width:385px;*/
 	margin:0 auto;
 	background-color:#000000;
 	border-radius:15px;
-        cursor: pointer;
-	
+	cursor: pointer;
+
 }
 #amateur_texto
 {
@@ -125,11 +125,11 @@ a
     height:320px;
     position: relative;
     color: red;
-/*    background-color: red;*/
-/*    display:none;*/
-    
-    }
-  .fundamentos_comic{
+	/*    background-color: red;*/
+	/*    display:none;*/
+
+}
+.fundamentos_comic{
 	width:850px;
     height:320px;
     position: relative;
@@ -137,60 +137,60 @@ a
     margin-left: auto;
     margin-right: auto;
     display:none;
-	
-    }
+
+}
 
 .precine_aparatos
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
-        height: auto;
-        width: auto;
+	/*	width:385px;*/
+	height: auto;
+	width: auto;
 	margin:45px 45px 45px 45px;
-	
+
 	border-radius:15px;
-        cursor: pointer;
-	 display: none;
+	cursor: pointer;
+	display: none;
 }
 .amateur_aparatos
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
-        height: auto;
-        width: auto;
+	/*	width:385px;*/
+	height: auto;
+	width: auto;
 	margin:45px 45px 45px 45px;
-	
+
 	border-radius:15px;
-        cursor: pointer;
-	 display: none;
+	cursor: pointer;
+	display: none;
 }
 .profe_aparatos
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
-        height: auto;
-        width: auto;
+	/*	width:385px;*/
+	height: auto;
+	width: auto;
 	margin:45px 45px 45px 45px;
-	
+
 	border-radius:15px;
-        cursor: pointer;
-	 display: none;
+	cursor: pointer;
+	display: none;
 }
 .ingenio_aparatos
 {
 
 	color:#CCCCCC;
-/*	width:385px;*/
-        height: auto;
-        width: auto;
+	/*	width:385px;*/
+	height: auto;
+	width: auto;
 	margin:45px 45px 45px 45px;
-	
+
 	border-radius:15px;
-        cursor: pointer;
-	 display: none;
+	cursor: pointer;
+	display: none;
 }
 
 
@@ -199,7 +199,7 @@ a
     width: 700px;
     align: center;
     border-radius:15px;
-        cursor: pointer;
+	cursor: pointer;
 	display:none;
 	margin-left: 250px;
 }
@@ -207,14 +207,14 @@ a
 
 nav.menu_principal ul li img
 {
-	
+
 	display: inline-block;
-/*	margin-right:20px;
-	margin-bottom: 15px;*/
+	/*	margin-right:20px;
+		margin-bottom: 15px;*/
 	cursor: pointer;
-        background-color: white;
-/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
-	
+	background-color: white;
+	/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+
 
 }
 
@@ -223,35 +223,32 @@ nav.menu_principal ul li img
 
 #biogr
 {
-position:absolute;
-left:90%;
-top:20%;
-width:150px;
-height:150px;
+	position:absolute;
+	left:90%;
+	top:20%;
+	width:150px;
+	height:150px;
 
 }
 #informacion_aparatos{
-    height: 55%;
+	/*    height: 55%;*/
+	height: auto;
     width: 75%;
     position:absolute;
     top:15%;
     left:10%;
     right:10%;
-    bottom:25%;
     border-radius:35px;
     padding: 5px;
     background-color: white;
     overflow: hidden;
     box-shadow: 35px 52px 16px 13px rgba(0,0,0,0.5);
-    display: none;
-    
-    
 }
 #informacion_aparatos .header_content
 {
-  
-    
-    
+
+
+
     padding: 5px;
     background-color:red;
     border-radius:15px;
@@ -259,7 +256,7 @@ height:150px;
     cursor: pointer;
 }
 
-    
+
 .aparatos_nombre_interior
 {
     color:black;
@@ -274,9 +271,9 @@ height:150px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     box-shadow:#000;
-/*    -moz-box-shadow: 10px 10px 5px #888;
-    -webkit-box-shadow: 10px 10px 5px #888;
-    box-shadow: 10px 10px 5px #000;*/
+	/*    -moz-box-shadow: 10px 10px 5px #888;
+		-webkit-box-shadow: 10px 10px 5px #888;
+		box-shadow: 10px 10px 5px #000;*/
 }
 
 
@@ -293,8 +290,8 @@ button{
 
 footer{
 	height:30px;
-/*	background-color:gray;*/
-/*	border-image:url(imagenes/pleca.png);*/
+	/*	background-color:gray;*/
+	/*	border-image:url(imagenes/pleca.png);*/
 	border-soloid:#000000;
 	border-radius:25px;
 	padding:5px 10px;
@@ -342,7 +339,7 @@ footer a.twitter
 
 .caja_info_aparato
 {
-    
+		padding-bottom: 80px;
 }
 
 .texto1
@@ -353,10 +350,8 @@ footer a.twitter
     margin-top: 10px;
     padding:2%;
     border-radius:8px;
-    weight:auto; 
-    height:250px;
     color: black;
-    
+
 }
 .texto2
 {
@@ -367,25 +362,27 @@ footer a.twitter
     margin-top: 10px;
     padding:3px;
     border-radius:8px;
-    weight:auto; 
-    height:250px;
     color: black;
 
 }
 
 .texto3
 {
-
-    height:auto;
     right:66%;
     width:30%;
     text-align : justify;
     margin-top: 10px;
-     margin-left: 10px;
+	margin-left: 10px;
     padding:3px;
     border-radius:8px;
     weight:33%; 
-    height:250px;
 	float:left;
-        color: black;
-}	
+	color: black;
+}
+
+.caja_info_aparato:after{
+	clear:both;
+	background-color:gray;
+	height: 200px;
+	width: 200px;
+}
