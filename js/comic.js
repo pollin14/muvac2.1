@@ -1,3 +1,4 @@
+if (! Muvac){ var Muvac = {};};
 Muvac.comic = {};
 
 Muvac.comic['prometeo y la luz'] = function() {

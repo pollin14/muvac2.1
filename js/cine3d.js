@@ -1,3 +1,5 @@
+if (! Muvac){ var Muvac = {};};
+
 Muvac.startUnity = function(ops) {
 
 	var config = {
