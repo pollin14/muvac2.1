@@ -6,46 +6,30 @@
     src: url(type/alagard.ttf) format("truetype");
 }
 
-
-
-
-
 @media only screen and (min-width: 849px) and (max-width: 1920px) {
     header
     {
-
         font-family: "alagard";
         height:13%;
         width: 100%;
-        /*        weigth:auto;*/
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         top:0px;
-        /*        margin-bottom: 5px;*/
-/*        float: left;*/
     }
     header h1
     {
-
         font-family: "alagard";
         height:0%;
         width: 100%;
-        /*        weigth:auto;*/
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         top:0px;
-        /*        margin-bottom: 5px;*/
-/*        float: left;*/
     }
     #header_prin_cine
     {
         width: 145px;
         height: 48%;
         background-color: rgba(0,0,0,1);
-
-
     }
     #header_prin_cine
     .header_secciones_cine
@@ -58,26 +42,20 @@
         position: absolute;
         display: none;
         color:orange;
-
     }
-  
 
-    nav ul li 
+
+    nav.menu_principal ul li 
     {
-
         display: inline-block;
         margin-right:20px;
         border-radius:15px 5px 5px 5px;
         padding: 3px 3px 3px 3px;
         cursor: pointer;
         background-color: rgba(0,0,0,.8);
-
-
-
-
     }
-    .abajo{
-        
+	
+    nav.menu_principal ul li.abajo{
         width: 40px;
         height: 40px;
         position:absolute;
@@ -85,9 +63,6 @@
         right: 90%;
         top:5px;
         display:none;
-        
-
-
     }
 
 }
@@ -104,7 +79,7 @@
 
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
+		/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         margin-top:0px;
         margin-bottom: 5px;
         float: left;
@@ -182,22 +157,17 @@
 
     }
 
-    nav ul li 
+    nav.menu_principal ul li 
     {
 
         display: inline-block;
-        /*	margin-right:20px;
-                margin-bottom: 15px;*/
         cursor: pointer;
-        /*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
         margin-top:20px;
         border-radius:15px 5px 5px 5px;
 
-
-
     }
-    .abajo{
-        
+    .menu_principal ul li.abajo{
+
         width: 40px;
         height: 40px;
         position:absolute;
@@ -205,15 +175,11 @@
         right: 90%;
         top:5px;
         display:none;
-
-
     }
-
-
 
 }
 /*Tres (pantalla grande)*/
-@media only screen and (min-width: 250px) and (max-width: 450px) {
+@media only screen and (min-width: 0px) and (max-width: 450px) {
 
     header
     {
@@ -221,18 +187,15 @@
         width:100%;
         font-family: "alagard";
         height:auto;
-
-
         background-color:white;
         color:black;
-/*        box-shadow:0px 0px 20px rgba(0,0,0,0.3);*/
         margin-top:0px;
         margin-bottom: 5px;
         float: left;
 
     }
     /*botones de cabecera por secciones*/
-      
+
     .menu_fundamentos{
         position: absolute;
         left: 0%;
@@ -306,9 +269,9 @@
     }
 
 
- 
-.abajo{
-        
+
+	.abajo{
+
         width: 40px;
         height: 40px;
         position:absolute;
@@ -318,19 +281,19 @@
 
     } 
     nav ul li img
-{
-	
-	display: inline-block;
-	margin-left:10px;
-	margin-bottom: 15px;
-	cursor: pointer;
-        background-color: white;
-/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
-	
+	{
 
-}/*
-.precine_aparatos{
-   margin-left: 3px;
-}*/
+		display: inline-block;
+		margin-left:10px;
+		margin-bottom: 15px;
+		cursor: pointer;
+        background-color: white;
+		/*	box-shadow:0px 0px 20px rgba(0,0,0,0.6);*/
+
+
+	}/*
+	.precine_aparatos{
+	   margin-left: 3px;
+	}*/
 
 }
