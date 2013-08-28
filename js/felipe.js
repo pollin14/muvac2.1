@@ -1,6 +1,15 @@
 //estas lineas de abajo sirven para ocultar y mostrar las secciones
 
 $(document).ready(function() {
+	
+	$('#menu_3d').click(function(){
+		$('#tres_d_texto').click();
+	});
+	
+	$('#menu_fundamentos').click(function(){
+		$('#fundamentos_texto').click();
+	});
+	
 	$("#fundamentos_texto").click(function() {
 		$(".fundamentos_comic").slideToggle("1000");
 		$(".precine_aparatos").hide("fast");
