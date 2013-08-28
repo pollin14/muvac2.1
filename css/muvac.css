@@ -340,15 +340,52 @@ footer a.twitter
 	background-image:url(imagenes/logos/twitter.png);
 	float:left;}
 
+.caja_info_aparato
+{
+    
+}
 
+.texto1
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    margin-top: 10px;
+    padding:2%;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+    color: black;
+    
+}
+.texto2
+{
+    width:30%;
+    float:left;
+    text-align : justify;
+    padding:2%;
+    margin-top: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:auto; 
+    height:250px;
+    color: black;
 
+}
 
+.texto3
+{
 
-
-
-
-
-	
-	
-	
-	
+    height:auto;
+    right:66%;
+    width:30%;
+    text-align : justify;
+    margin-top: 10px;
+     margin-left: 10px;
+    padding:3px;
+    border-radius:8px;
+    weight:33%; 
+    height:250px;
+	float:left;
+        color: black;
+}	
