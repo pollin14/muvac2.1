@@ -27,7 +27,6 @@
 		<script type="text/javascript" src="js/jquery.mtooltip-1.0.js"></script>
 		<script type="text/javascript" src="js/muvac.taumatropo.js"></script>
 		<script type="text/javascript" src="js/muvac.js"></script>
-		<script type="text/javascript" src="js/aparatos.js"></script>
 		<script type="text/javascript" src="js/comic.js"></script>
 		<script type="text/javascript" src="js/cine3d.js"></script>
 		<script type="text/javascript" src="js/felipe1.js"></script>
@@ -78,9 +77,9 @@
                 <div id='centrar_pagina'>
 
                     <article>
-						<a id="fundamentos_texto" class="boton_de_menu" href="">
+						<button id="fundamentos_texto">
 							Comic Fundamentos de la luz
-                        </a>
+                        </button>
 
 						<div id="elemento"></div>
                         <nav class="fundamentos_comic">
@@ -88,13 +87,16 @@
 								<li class="comic" id="comic">
 									rockStar
                                 </li>
+
+
                             </ul>
 						</nav>
 
-                        <button id="precine_texto" class="boton_de_menu">
+                        <button id="precine_texto">
 							Aparatos Precinematograficos
                         </button>
 
+                        <div id="elemento"></div>
                         <nav class="precine_aparatos">
 							<ul>
 								<li><a href="secciones/precinematograficos/aparatos/linterna_magica/linterna_magica.html"><div><h4><img src="imgs/next.png"></h4></div></a></li>
@@ -107,9 +109,11 @@
                             </ul>
 						</nav>
 
-						<button id="amateur_texto" class="boton_de_menu">
+						<button id="amateur_texto">
 							Aparatos Cinematograficos Amateur
 						</button>
+                        <div id="elemento"></div>
+
 
 						<nav class="amateur_aparatos">
                             <ul>
@@ -136,9 +140,10 @@
 
 							</ul>
                         </nav>
-                        <button id="profe_texto" class="boton_de_menu">
+                        <button id="profe_texto">
 							Aparatos Cinematograficos Profesionales
 						</button>
+                        <div id="elemento"></div>
 						<nav class="profe_aparatos">
 
                             <ul>
@@ -160,9 +165,10 @@
 
                             </ul>
                         </nav>
-                        <button id="ingenio_texto" class="boton_de_menu">
+                        <button id="ingenio_texto">
 							Ingenio Mexicano
 						</button>
+						<div id="elemento"></div>
 						<nav class="ingenio_aparatos">
 
                             <ul>
@@ -178,7 +184,22 @@
 
                         </nav>
 
-						<a id="tres_d_texto" class="boton_de_menu" href="secciones/cine3d/cine3d.html">Recorrido 3d</a>
+						<button id="tres_d_texto">
+							Recorrido 3d
+						</button>
+						<div id="elemento"></div>
+						<nav >
+
+                            <ul>
+
+								<li class="tres_d_recorrido" id="tres_d_recorrido"> </li>
+
+
+
+
+                            </ul>
+
+                        </nav>
 
 						<div id="informacion_aparatos"></div>
 						<div id="subpage"></div>
